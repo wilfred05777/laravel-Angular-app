@@ -62,7 +62,7 @@
                 }
               ]
             }
-          }, 
+          },
           "dev": {
             "outputPath": "dist/assets/angular",
             "baseHref": "/assets/angular"
@@ -133,5 +133,8 @@
       }
     }
   },
-  "defaultProject": "angular"
+  "defaultProject": "angular",
+  "cli": {
+    "analytics": false
+  }
 }
